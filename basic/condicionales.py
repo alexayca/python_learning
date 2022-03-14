@@ -1,3 +1,5 @@
+# Presenta error por corregir
+
 while True:
     menu = """ Podemos utilizar los dos tipos de escritura mas comunes
         con el triple de comillas dobles para imprimir en pantalla varias
@@ -9,9 +11,7 @@ while True:
     Escribe un numero (0 para salir): 
 
     """
-
     option = int(input(menu))
-
         
     if option != 0:
         print("Usted escribio: ",option)

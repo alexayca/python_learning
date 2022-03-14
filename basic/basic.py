@@ -1,3 +1,7 @@
+# Para ejecutar los archivos en la consola de comandos
+# escribimos py./nombre_archivo.py
+# En python es necesario respetar la identacion para los bloques de codigo
+
 
 '''
 Dot strings para comentarios
@@ -9,6 +13,12 @@ print("Hola")
 nombre = "Alex AC"
 print(nombre)
 nombre
+
+# Escribir en varias lineas
+texto = "Es un texto dividido en\
+   varias lineas\
+   para la linea de comandos."
+print(texto)
 
 edad_usuario = 36
 salario_usuario = 1000
