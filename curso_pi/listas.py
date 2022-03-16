@@ -5,7 +5,8 @@
 # anadiendo nuevos elementos
 # 
 # nombre_lista=[elem1,elem2,elem3,...]
-# 
+# Observe que va entre corchetes 
+#
 
 mi_lista = ["Ariety","Susana", "Magaly","Karla","Lizbeth"]
 
@@ -31,6 +32,7 @@ mi_lista.append("Sandra")
 mi_lista.insert(2,"Elizabeth")
 
 # para agregar varios elementos se usa extend (observe los tipos)
+# los elementos se agregan al final
 mi_lista.extend(["Ana","Lucia","Martha",3.14, 85, True])
 
 print(mi_lista[:])
