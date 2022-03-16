@@ -2,7 +2,7 @@
 # las tuplas son listas inmutables, no se pueden modificar despues de crearse
 # NO [append, extend, remove]
 # permite extraer porciones, pero el resultado es una tupla nueva
-# No permiten busquedas (no index)
+# No permiten busquedas (no index antes de la version ~2.6)
 # Si permite comprobar si un elemento existe en la lista
 # 
 # Su utilidad y ventajas respecto a las listas
